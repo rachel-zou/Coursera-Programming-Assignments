@@ -1,0 +1,1 @@
+Programming assignments from Coursera course Pattern Discovery in Data Mining offered by University of Illinois at Urbana-Champaign.
