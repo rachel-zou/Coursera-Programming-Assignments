@@ -1,3 +1,6 @@
+'''
+Implemented the K-means Clustering Algorithm to group 300 places in the US into three clusters 
+'''
 import pandas as pd
 import geopy.distance 
 
