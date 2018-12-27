@@ -26,7 +26,7 @@ while count < 50:
         df[1][i] = geopy.distance.vincenty(c1, df['coords'][i]).km
         df[2][i] = geopy.distance.vincenty(c2, df['coords'][i]).km
     
-    # The cluster each point belong to
+    # The cluster each point belongs to
     df['cluster'] = df[[0,1,2]].idxmin(axis=1)
     
     # Define the function to find out the new center point of each cluster
